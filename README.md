@@ -8,27 +8,33 @@ Elixir Outdoors provides a simple and customizable structure to getting started 
 
 
 ##Starting
-> This README is a work in progress!
+> This documentation is a work in progress!
 
-In order to use Elixir Outdoors you need to have `nodejs` and `gulp` installed.
+Laravel Elixir requires `nodejs` and `gulpjs`.
+
 Find more about how to get `nodejs` at: [nodejs.org](https://nodejs.org/en/)
+
 Find more about `gulp` at: [gulp](http://gulpjs.com/)
 
-clone the repo:
+In order to use Elixir Outdoors clone the repo:
 
-    git clone git://github.com/marcim/elixir-outdoors.git my_project_folder
+    git clone git@github.com:marcim/elixir-outdoors.git my_project_folder
 
-Then enter the folder created and run `npm install` to install Laravel Elixir and his dependencies.
+Then enter into the folder created and run `npm install` to install Laravel Elixir and his dependencies.
 
     cd my_project_folder
     npm install
 
 Now just run `gulp` to build the initial files.
 
-Take a look at the folder structure:
+    gulp
 
-- Think the `public` folder as the build folder project. Here you will find an `index.html` file, this is where you get start with your frontend.
-- The `src` folder is where your assets sources files go. If you are familiarized with **Laravel Framework** the `src` folder is equivalent to `resurces/assets` folder.
+###Taking a look at the folder and files structure:
+
+- `gulpfile.js` is the main file where you can adjust your building system and customize the folders structure. We will see more about it at the *Customize* section of this text.
+- Think the `public` folder as a standard build folder project. Here you will find the `css`, `fonts`, `images` and `js` folders. Also at this folder you have an `index.html` file, this is where you get start with your frontend code.
+- The `src` folder is where your assets sources files go. If you are familiarized with **Laravel Framework** the `src` folder is equivalent to `resurces/assets` folder. Please read the Laravel Elixir [documentation](https://github.com/laravel/elixir) to know how to deal with subfolders and files conventions.
+
 
 ##Customize
 TODO
