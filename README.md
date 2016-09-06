@@ -1,26 +1,34 @@
-#Elixir Outdoors
+> This copy is a work in progress!
 
-This is a simple scaffold to use [Laravel Elixir](https://github.com/laravel/elixir) without requires **Laravel Framework** to be installed.
+# Elixir Outdoors
 
-Learn more about Laravel Framework: [laravel.com](http://laravel.com)
+This is a simple scaffold to use *Elixir* without install *Laravel Framework*, providing a simple and customizable structure to getting started with your frontend project.
 
-Elixir Outdoors provides a simple and customizable structure to getting started with your frontend project.
+Sometimes your frontend project needs to be developed separately from the backend. If you use *Laravel Framework*, it's hard to give up the convenience that *Elixir* offers. How about to use the *Elixir* even without Laravel?
+
+> If you don't know about Laravel and Elixir, please visit: [laravel.com](http://laravel.com/docs)
+
+#### What comes with it?
+
+**Twitter Bootstrap 3** - latest version of bootstrap-sass.
+**jquery** - version 3 later.
+**js-cookie** - latest version.
+**lodash** - latest version.
+**vuejs** - latest version.
+**vue-resource** - latest version.
+
+Feel free to add or remove any NPM package according to your needs.
 
 
-##Starting
-> This documentation is a work in progress!
+## Starting
 
-Laravel Elixir requires `nodejs` and `gulpjs`.
+> Note: Run this requires 'nodejs' and 'gulpjs' instaled.
 
-Find more about how to get `nodejs` at: [nodejs.org](https://nodejs.org/en/)
+In order to start, clone this repo:
 
-Find more about `gulp` at: [gulp](http://gulpjs.com/)
+    git clone https://github.com/marcim/elixir-outdoors.git my_project_folder
 
-In order to use Elixir Outdoors clone the repo:
-
-    git clone git@github.com:marcim/elixir-outdoors.git my_project_folder
-
-Then enter into the folder created and run `npm install` to install Laravel Elixir and his dependencies.
+Then enter into the created folder and run `npm install` to install Laravel Elixir and its dependencies.
 
     cd my_project_folder
     npm install
@@ -29,18 +37,18 @@ Now just run `gulp` to build the initial files.
 
     gulp
 
-###Taking a look at the folder and files structure:
+#### Taking a look at the folder and files structure:
 
-- `gulpfile.js` is the main file where you can adjust your building system and customize the folders structure. We will see more about it at the *Customize* section of this text.
-- Think the `public` folder as a standard build folder project. Here you will find the `css`, `fonts`, `images` and `js` folders. Also at this folder you have an `index.html` file, this is where you get start with your frontend code.
-- The `src` folder is where your assets sources files go. If you are familiarized with **Laravel Framework** the `src` folder is equivalent to `resurces/assets` folder. Please read the Laravel Elixir [documentation](https://github.com/laravel/elixir) to know how to deal with subfolders and files conventions.
+- `gulpfile.js` - Is the main file where you can adjust your building system and customize the folders structure. We will see more about it at the *Customize* section of this doc.
+- `public`- Think this folder as a standard **build** folder project. Here you will find the `css`, `fonts`, `images` and `js` folders. Also at this folder you have an `index.html` file, this is where your web server starts.
+- `src` - This folder is where the code happens, all your's assets and other source files go here. If you are familiarized with **Laravel Framework** the `src` folder is equivalent to `resurces/assets` folder. Please read the [Laravel Elixir documentation](https://laravel.com/docs/5.3/elixir) to know how to deal with subfolders and files conventions.
 
 
-##Customize
+## Customize
 TODO
 
 
 --
 Enjoy!
 
-This code is under MIT license.
+Code under [MIT license](http://opensource.org/licenses/MIT).

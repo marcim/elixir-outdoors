@@ -1,4 +1,6 @@
-var elixir = require('laravel-elixir');
+const elixir = require('laravel-elixir');
+
+require('laravel-elixir-vue');
 
 // The path to source files directory.
 elixir.config.assetsPath = 'src';
@@ -7,23 +9,16 @@ elixir.config.publicPath = 'public';
 // The path to root directory.
 elixir.config.appPath = './';
 
-elixir(function(mix) {
+elixir(mix => {
+    // images
+    mix.copy('src/images', 'public/images');
 
-    // fonts
-    mix.copy('./node_modules/font-awesome/fonts', './public/fonts');
+    // html
+    mix.copy('src/index.html', 'public/index.html');
 
     // scss files
     mix.sass('app.scss');
 
-    // scripts files
-    mix.scripts([
-        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
-        'app.js'
-    ]);
-
-    // scripts with browserify
-    // elixir(function(mix) {
-    //     mix.browserify('main.js');
-    // });
-
+    // scripts with webpack
+    mix.webpack('app.js');
 });
