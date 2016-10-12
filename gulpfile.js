@@ -4,8 +4,10 @@ require('laravel-elixir-vue-2');
 
 // The path to source files directory.
 elixir.config.assetsPath = 'src';
+
 // The path to build directory, put your html files here.
 elixir.config.publicPath = 'public';
+
 // The path to root directory.
 elixir.config.appPath = './';
 
