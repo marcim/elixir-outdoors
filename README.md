@@ -1,21 +1,22 @@
 > This copy is a work in progress!
 
-# Elixir Outdoors
+# Laravel Elixir Outdoors
 
-This is a simple scaffold to use *Elixir* without install *Laravel Framework*, providing a simple and customizable structure to getting started with your frontend project.
+This is a simple scaffold to use *Laravel Elixir* without install *Laravel Framework*, providing a simple and customizable structure to getting started with your frontend project.
 
-Sometimes your frontend project needs to be developed separately from the backend. If you use *Laravel Framework*, it's hard to give up the convenience that *Elixir* offers. How about to use the *Elixir* even without Laravel?
+Sometimes your frontend project needs to be developed separately from the backend. If you use *Laravel Framework*, it's hard to give up the convenience that *Laravel Elixir* offers. How about to use the * Laravel Elixir* even without Laravel Framework?
 
-> If you don't know about Laravel and Elixir, please visit: [laravel.com](http://laravel.com/docs)
+> If you don't know about Laravel Framework and Laravel Elixir, please visit: [laravel.com](http://laravel.com/docs)
 
 #### What comes with it?
 
-**Twitter Bootstrap 3** - latest version of bootstrap-sass.
-**jquery** - version 3 later.
-**js-cookie** - latest version.
-**lodash** - latest version.
-**vuejs** - latest version.
-**vue-resource** - latest version.
+By default Laravel Elixir comes with some "essential" packages:
+
+- **Twitter Bootstrap 3** - latest version of bootstrap-sass.
+- **jquery** - version 3 later.
+- **lodash** - latest version.
+- **vuejs** - latest version.
+- **vue-resource** - latest version.
 
 Feel free to add or remove any NPM package according to your needs.
 
@@ -45,7 +46,7 @@ Now just run `gulp` to build the initial files.
 
 
 ## Customize
-TODO
+TODO!
 
 
 --
