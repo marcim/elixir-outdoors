@@ -4,7 +4,9 @@
 
 This is a simple scaffold to use *Laravel Elixir* without install *Laravel Framework*, providing a simple and customizable structure to getting started with your frontend project.
 
-Sometimes your frontend project needs to be developed separately from the backend. If you use *Laravel Framework*, it's hard to give up the convenience that *Laravel Elixir* offers. How about to use the * Laravel Elixir* even without Laravel Framework?
+####Why?
+
+Sometimes your frontend project needs to be developed separately from the backend. If you use *Laravel Framework*, it's hard to give up the convenience that *Laravel Elixir* offers. How about to use the *Laravel Elixir* even without Laravel Framework?
 
 > If you don't know about Laravel Framework and Laravel Elixir, please visit: [laravel.com](http://laravel.com/docs)
 
@@ -12,11 +14,11 @@ Sometimes your frontend project needs to be developed separately from the backen
 
 By default Laravel Elixir comes with some "essential" packages:
 
+- **axios** - latest version.
 - **Twitter Bootstrap 3** - latest version of bootstrap-sass.
 - **jquery** - version 3 later.
 - **lodash** - latest version.
 - **vuejs** - latest version.
-- **vue-resource** - latest version.
 
 Feel free to add or remove any NPM package according to your needs.
 
@@ -29,10 +31,15 @@ In order to start, clone this repo:
 
     git clone https://github.com/marcim/elixir-outdoors.git my_project_folder
 
-Then enter into the created folder and run `npm install` to install Laravel Elixir and its dependencies.
+Then enter into the created folder and install Laravel Elixir dependencies:
 
     cd my_project_folder
+
     npm install
+
+or if you use yarn:
+
+    yarn
 
 Now just run `gulp` to build the initial files.
 
