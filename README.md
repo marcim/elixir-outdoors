@@ -15,7 +15,7 @@ Sometimes your frontend project needs to be developed separately from the backen
 By default Laravel Elixir comes with some "essential" packages:
 
 - **axios** - latest version.
-- **Twitter Bootstrap 3** - latest version of bootstrap-sass.
+- **Twitter bootstrap 3** - latest version of bootstrap-sass.
 - **jquery** - version 3 later.
 - **lodash** - latest version.
 - **vuejs** - latest version.
@@ -29,15 +29,15 @@ Feel free to add or remove any NPM package according to your needs.
 
 In order to start, clone this repo:
 
-    git clone https://github.com/marcim/elixir-outdoors.git my_project_folder
+    git clone https://github.com/marcim/laravel-elixir-outdoors.git my_project_folder
 
-Then enter into the created folder and install Laravel Elixir dependencies:
+Then enter into the created folder and install *Laravel Elixir* dependencies:
 
     cd my_project_folder
 
     npm install
 
-or if you use yarn:
+or if you use *yarn*:
 
     yarn
 
