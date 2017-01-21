@@ -1,6 +1,7 @@
-> This copy is a work in progress!
+# This repo is deprecated in favor of Laravel Mix.
+Se more in [Laravel Mix](https://laravel.com/docs/5.4/mix)
 
-# Laravel Elixir Outdoors
+## Laravel Elixir Outdoors
 
 This is a simple scaffold to use *Laravel Elixir* without install *Laravel Framework*, providing a simple and customizable structure to getting started with your frontend project.
 
